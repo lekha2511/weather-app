@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:1s;
+    background:linear-gradient(135deg,#00c6ff,#487dbe);
+    background-image: url("https://wallpaperaccess.com/full/1540049.jpg");
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sunny {
+    background: linear-gradient(135deg,#f6d365,#fda085);
+    background-image: url(https://img.freepik.com/premium-photo/summer-landscape-with-sun-rays-white-clouds-blue-sky-yellow-flowers_1028938-202463.jpg);
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cloudy{
+    background:linear-gradient(135deg,#bdc3c7,#2c3e50);
+    background-image: url(https://jooinn.com/images/dark-cloudy-sky-29.jpg);
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.rainy{
+    background:linear-gradient(135deg,#4b79a1,#283e51);
+     background-image: url(https://th.bing.com/th/id/R.653f2901d73984f72dd055f42b495ffa?rik=o%2buQk%2bQrbTULkg&riu=http%3a%2f%2fs1.bwallpapers.com%2fwallpapers%2f2014%2f03%2f23%2fheavy-rain_113118449.jpg&ehk=Ar7QBBLyMFLfyNkIIl%2fqxkouA16JtfpyqOqclq7lmPg%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.storm{
+    background:linear-gradient(135deg,#232526,#414345);
+     background-image: url(https://wallpapercave.com/wp/wp4257795.jpg);
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.snowy{
+    background:linear-gradient(135deg,#e0eafc,#cfdef3);
+     background-image: url(https://tse4.mm.bing.net/th/id/OIP.s_VuyIyHYB_qk3INcpHNpgHaEo?w=2560&h=1600&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    width:420px;
+    background:rgba(160, 157, 157, 0);
+    backdrop-filter:blur(12px);
+    padding:25px;
+    border-radius:25px;
+    color:black;
+    text-align:center;
+    box-shadow:red;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.search-box{
+    display:inline-flexbox;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    height: 55px;
+    padding: 15px;
+    color: black;
+    box-shadow: blue;
+}
+
+
+input{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    width: 290px;
+    color: black;
+}
+
+button{
+    padding:12px 18px;
+    border:none;
+    border-radius:10px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.button-group{
+    display:flex;
+    gap:15px;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    
+}
+
+#datetime{
+    margin:15px 0;
+    margin-top: 5px;
+}
+
+.weather img{
+    width:100px;
+}
+
+.temp{
+    font-size:40px;
+    font-weight:bold;
+}
+
+.desc{
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+
+.details{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-top: 20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.2);
+    padding:15px;
+    border-radius:15px;
+}
+
+.card h3{
+    font-size:15px;
+    margin-bottom: 5px;
+}
