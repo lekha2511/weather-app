@@ -12,7 +12,7 @@ body{
     align-items:center;
     transition:1s;
     background:linear-gradient(135deg,#00c6ff,#487dbe);
-    background-image: url("https://img.freepik.com/premium-photo/weather-climate-background_854605-3208.jpg?w=2000");
+    background-image: url("https://img.freepik.com/premium-vector/light-blue-background-vector_889056-107345.jpg");
     background-repeat:none;
     background-size: cover;
     background-position: center;
@@ -20,8 +20,8 @@ body{
 }
 .sunny {
     background: linear-gradient(135deg,#f6d365,#fda085);
-    background-image: url(https://img.freepik.com/premium-photo/summer-landscape-with-sun-rays-white-clouds-blue-sky-yellow-flowers_1028938-202463.jpg);
-    background-repeat:none;
+    background-image: url("https://image.shutterstock.com/image-photo/sunny-background-blue-sky-white-260nw-1911398983.jpg");
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body{
 .cloudy{
     background:linear-gradient(135deg,#bdc3c7,#2c3e50);
     background-image: url(https://th.bing.com/th/id/R.f20ccfa5b239e0e9864dd27946d1408c?rik=Ptej69VpR36Q4Q&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1499956827185-0d63ee78a910%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8M3x8b3ZlcmNhc3R8fDB8fHx8MTYzMTY5ODQzMg%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=x%2f5Hqv0sGffSrZEvVRmshjwVYF6gjwolHbxbIFahXfo%3d&risl=&pid=ImgRaw&r=0);
-    background-repeat:none;
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -39,8 +39,8 @@ body{
 
 .rainy{
     background:linear-gradient(135deg,#4b79a1,#283e51);
-     background-image: url(https://th.bing.com/th/id/R.653f2901d73984f72dd055f42b495ffa?rik=o%2buQk%2bQrbTULkg&riu=http%3a%2f%2fs1.bwallpapers.com%2fwallpapers%2f2014%2f03%2f23%2fheavy-rain_113118449.jpg&ehk=Ar7QBBLyMFLfyNkIIl%2fqxkouA16JtfpyqOqclq7lmPg%3d&risl=&pid=ImgRaw&r=0);
-    background-repeat:none;
+    background-image: url(https://wallpaperaccess.com/full/164284.jpg);
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -48,8 +48,8 @@ body{
 
 .storm{
     background:linear-gradient(135deg,#232526,#414345);
-     background-image: url(https://wallpapercave.com/wp/wp4257795.jpg);
-    background-repeat:none;
+    background-image: url(https://wallpaperaccess.com/full/3969209.jpg);
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -57,8 +57,8 @@ body{
 
 .snowy{
     background:linear-gradient(135deg,#e0eafc,#cfdef3);
-     background-image: url(https://tse4.mm.bing.net/th/id/OIP.s_VuyIyHYB_qk3INcpHNpgHaEo?w=2560&h=1600&rs=1&pid=ImgDetMain&o=7&rm=3);
-    background-repeat:none;
+    background-image: url('https://img.freepik.com/premium-photo/merry-christmas-tree-winter-snow-background-image-ai-generated-art_1017715-1845.jpg');
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

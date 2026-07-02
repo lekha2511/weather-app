@@ -21,7 +21,7 @@ function clearCity() {
     document.getElementById("city").value = "";
     document.getElementById("weather").innerHTML = "";
         document.body.className = "";
-        document.body.style.backgroundImage = "url(https://img.freepik.com/premium-photo/weather-climate-background_854605-3208.jpg?w=2000)";
+        document.body.style.backgroundImage = "url(https://img.freepik.com/premium-vector/light-blue-background-vector_889056-107345.jpg)";
 
 }
 
@@ -44,15 +44,25 @@ async function getWeather() {
             document.getElementById("weather").innerHTML = "<p>City not found</p>";
             return;
         }
-
+        document.body.className = "";
         let weather = data.weather[0].main;
 
-        if (weather === "Clear") document.body.className = "sunny";
-        else if (weather === "Clouds") document.body.className = "cloudy";
-        else if (weather === "Rain") document.body.className = "rainy";
-        else if (weather === "Thunderstorm") document.body.className = "storm";
-        else if (weather === "Snow") document.body.className = "snowy";
-        else document.body.className = "";
+       if (weather === "Clear") {
+       document.body.style.backgroundImage = "url('https://image.shutterstock.com/image-photo/sunny-background-blue-sky-white-260nw-1911398983.jpg')";
+       }
+else if (weather === "Clouds") {
+    document.body.style.backgroundImage = "url('https://th.bing.com/th/id/R.f20ccfa5b239e0e9864dd27946d1408c?rik=Ptej69VpR36Q4Q&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1499956827185-0d63ee78a910%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8M3x8b3ZlcmNhc3R8fDB8fHx8MTYzMTY5ODQzMg%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=x%2f5Hqv0sGffSrZEvVRmshjwVYF6gjwolHbxbIFahXfo%3d&risl=&pid=ImgRaw&r=0')";
+}
+else if (weather === "Rain") {
+    document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/164284.jpg')";
+}
+else if (weather === "Thunderstorm") {
+    document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/3969209.jpg')";
+}
+else if (weather === "Snow") {
+    document.body.style.backgroundImage = "url('https://img.freepik.com/premium-photo/merry-christmas-tree-winter-snow-background-image-ai-generated-art_1017715-1845.jpg')";
+}
+
 
         document.getElementById("weather").innerHTML = `
             <div class="weather">
