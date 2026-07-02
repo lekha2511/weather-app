@@ -48,7 +48,7 @@ async function getWeather() {
         let weather = data.weather[0].main;
 
        if (weather === "Clear") {
-       document.body.style.backgroundImage = "url('https://image.shutterstock.com/image-photo/sunny-background-blue-sky-white-260nw-1911398983.jpg')";
+       document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/58341.jpg')";
        }
 else if (weather === "Clouds") {
     document.body.style.backgroundImage = "url('https://th.bing.com/th/id/R.f20ccfa5b239e0e9864dd27946d1408c?rik=Ptej69VpR36Q4Q&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1499956827185-0d63ee78a910%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8M3x8b3ZlcmNhc3R8fDB8fHx8MTYzMTY5ODQzMg%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=x%2f5Hqv0sGffSrZEvVRmshjwVYF6gjwolHbxbIFahXfo%3d&risl=&pid=ImgRaw&r=0')";
