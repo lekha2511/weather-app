@@ -12,7 +12,7 @@ body{
     align-items:center;
     transition:1s;
     background:linear-gradient(135deg,#00c6ff,#487dbe);
-    background-image: url("https://wallpaperaccess.com/full/1540049.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/weather-climate-background_854605-3208.jpg?w=2000");
     background-repeat:none;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ body{
 
 .cloudy{
     background:linear-gradient(135deg,#bdc3c7,#2c3e50);
-    background-image: url(https://jooinn.com/images/dark-cloudy-sky-29.jpg);
+    background-image: url(https://th.bing.com/th/id/R.f20ccfa5b239e0e9864dd27946d1408c?rik=Ptej69VpR36Q4Q&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1499956827185-0d63ee78a910%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8M3x8b3ZlcmNhc3R8fDB8fHx8MTYzMTY5ODQzMg%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=x%2f5Hqv0sGffSrZEvVRmshjwVYF6gjwolHbxbIFahXfo%3d&risl=&pid=ImgRaw&r=0);
     background-repeat:none;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,8 @@ body{
     border-radius:25px;
     color:black;
     text-align:center;
-    box-shadow:red;
+    box-shadow:0 8px 32px 0 rgba(31,38,135,0.37);
+    background-color:rgba(201, 173, 173, 0);
 }
 
 h1{
@@ -102,6 +103,7 @@ input{
     outline:none;
     width: 290px;
     color: black;
+    box-shadow: #00c6ff;
 }
 
 button{

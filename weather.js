@@ -21,7 +21,7 @@ function clearCity() {
     document.getElementById("city").value = "";
     document.getElementById("weather").innerHTML = "";
         document.body.className = "";
-        document.body.style.backgroundImage = "url(https://wallpaperaccess.com/full/1540049.jpg)";
+        document.body.style.backgroundImage = "url(https://img.freepik.com/premium-photo/weather-climate-background_854605-3208.jpg?w=2000)";
 
 }
 
